@@ -1,0 +1,11 @@
+pipeline {
+    agent any
+    stages {
+        stage('Sample Stage') {
+            steps {
+                echo 'Hello from Multibranch Pipeline!'
+            }
+        }
+    }
+}
+
